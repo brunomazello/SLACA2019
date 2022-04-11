@@ -16,13 +16,13 @@ body {
     left: 0;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.4s;
-  }
-  
-  .page-content {
+}
+
+.page-content {
 
     margin-left: 18%;
     margin-right: 5%;
-  }
+}
 
 .nav__left {
     background: #FDF1EB;
@@ -47,6 +47,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
+    color: #725C5C;
 }
 
 .subtitulo__texto {
@@ -54,8 +55,9 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
-    line-height: 26px;
     color: #725C5C;
+    line-height: 22px;
+    margin-bottom: 0px;
 }
 
 .assinatura__texto {
@@ -65,27 +67,28 @@ body {
     font-size: 14px;
     line-height: 16px;
 
+
     color: #725C5C;
 }
 
 
 .titulo__principal {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 900;
-font-size: 20px;
-line-height: 25px;
-/* or 125% */
-width: 52%;
-letter-spacing: 0.05em;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    /* or 125% */
+    width: 52%;
+    letter-spacing: 0.05em;
 
-color: #ED7839;
+    color: #ED7839;
 }
 
 
 .nav-item {
     border-bottom: 1px solid #e5e5e5;
-    
+
 }
 
 .topo__topics {
@@ -100,7 +103,7 @@ color: #ED7839;
     height: 439px;
     margin-left: 31px;
 
-    
+
     border: 1px solid #ECECEC;
     box-sizing: border-box;
     border-radius: 3px;
@@ -117,16 +120,16 @@ color: #ED7839;
 
 .citacao__trabalho {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 25px;
-/* identical to box height, or 179% */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    /* identical to box height, or 179% */
 
-text-align: right;
-letter-spacing: 0.05em;
+    text-align: right;
+    letter-spacing: 0.05em;
 
-color: #ED7839;
+    color: #ED7839;
 }
 
 .video__youtube {
@@ -142,4 +145,61 @@ color: #ED7839;
     border: 1px solid #ECECEC;
     box-sizing: border-box;
     border-radius: 3px;
+}
+
+.botao__linguagem {
+    width: 97px;
+    height: 34px;
+    ;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background-color: #FDF1EB;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.botao {
+    background: #ED7839;
+    border-radius: 4px;
+    color: #FFF;
+}
+
+
+.pessoa__imagem {
+    background: rgb(57, 6, 240);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
+
+.texto__usuario, .texto__linguagem {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.texto__email {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
 }
