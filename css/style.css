@@ -20,8 +20,8 @@ body {
 
 .page-content {
 
-    margin-left: 18%;
-    margin-right: 5%;
+    margin-left: 265px;
+    margin-right: 45px;
 }
 
 .nav__left {
@@ -77,11 +77,12 @@ body {
     font-style: normal;
     font-weight: 900;
     font-size: 20px;
+    width: 786px;
     line-height: 25px;
     /* or 125% */
-    width: 52%;
+    
     letter-spacing: 0.05em;
-
+    
     color: #ED7839;
 }
 
@@ -98,8 +99,7 @@ body {
 }
 
 .conteudo__topics {
-    width: 18%;
-
+    width: 242px;
     height: 439px;
     margin-left: 31px;
 
@@ -138,7 +138,7 @@ body {
 }
 
 .box__topicos {
-    width: 77%;
+    width: 1058px;
     border: 1px solid #ECECEC;
     box-sizing: border-box;
     border-radius: 3px;
@@ -243,4 +243,8 @@ body {
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     width: 99%;
+}
+
+.box__analise {
+    margin-left: 31px;
 }
