@@ -1,0 +1,145 @@
+:root {
+    --bg-top: #fff;
+    --bg-page: #FFF;
+}
+
+body {
+    background-color: var(--bg-page);
+    font-family: 'Roboto';
+}
+
+.vertical-nav {
+    width: 220px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+  }
+  
+  .page-content {
+
+    margin-left: 18%;
+    margin-right: 5%;
+  }
+
+.nav__left {
+    background: #FDF1EB;
+    height: 68px;
+}
+
+
+.bg-SLACA {
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+}
+
+.slaca__logo {
+    font-family: 'Roboto';
+    color: #FFFFFF;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.titulo__texto {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.subtitulo__texto {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #725C5C;
+}
+
+.assinatura__texto {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #725C5C;
+}
+
+
+.titulo__principal {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 25px;
+/* or 125% */
+width: 52%;
+letter-spacing: 0.05em;
+
+color: #ED7839;
+}
+
+
+.nav-item {
+    border-bottom: 1px solid #e5e5e5;
+    
+}
+
+.topo__topics {
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+
+}
+
+.conteudo__topics {
+    width: 18%;
+
+    height: 439px;
+    margin-left: 31px;
+
+    
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.conteudo__video {
+    width: 100%;
+    height: 100%;
+}
+
+.texto__lateral {
+    font-size: 12px;
+}
+
+.citacao__trabalho {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 25px;
+/* identical to box height, or 179% */
+
+text-align: right;
+letter-spacing: 0.05em;
+
+color: #ED7839;
+}
+
+.video__youtube {
+    width: 783px;
+    height: 439px;
+}
+
+.box__topicos {
+    width: 77%;
+}
+
+.texto__conteudos {
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
