@@ -139,12 +139,20 @@ body {
 
 .box__topicos {
     width: 77%;
-}
-
-.texto__conteudos {
     border: 1px solid #ECECEC;
     box-sizing: border-box;
     border-radius: 3px;
+}
+
+.texto__conteudos {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+
+    color: #5C5C5C;
 }
 
 .botao__linguagem {
@@ -173,6 +181,7 @@ body {
     background: #ED7839;
     border-radius: 4px;
     color: #FFF;
+    border: none;
 }
 
 
@@ -202,4 +211,36 @@ body {
     font-size: 12px;
     line-height: 15px;
 
+}
+
+.imagem__botoes {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.topicos__titulo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.compartilhar__ideias {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #ED7839;
+}
+
+.box__topicos-criados {
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    width: 99%;
 }
