@@ -1,0 +1,410 @@
+:root {
+    --bg-top: #fff;
+    --bg-page: #FFF;
+}
+
+body {
+    background-color: var(--bg-page);
+    font-family: 'Roboto';
+}
+
+/* Menus de navegação */
+.vertical-nav {
+    width: 220px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+}
+
+.page-content {
+
+    margin-left: 265px;
+    margin-right: 45px;
+}
+
+.nav__left {
+    background: #FDF1EB;
+    height: 68px;
+}
+
+
+.bg-SLACA {
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+}
+
+.slaca__logo {
+    font-family: 'Roboto';
+    color: #FFFFFF;
+    font-size: 2rem;
+    line-height: 35px;
+}
+
+.assinatura__texto {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+
+    color: #725C5C;
+}
+
+/* Início da primeira sessão */
+.titulo__texto {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: #725C5C;
+}
+
+.subtitulo__texto {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #725C5C;
+    line-height: 26px;
+    margin-bottom: 0px;
+}
+
+
+.titulo__principal {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.25rem;
+    width: 786px;
+    line-height: 25px;
+    margin-right: 36px;
+    /* or 125% */
+
+    letter-spacing: 0.05em;
+
+    color: #ED7839;
+}
+
+.botoes__laterais {
+    margin-top: 20px
+}
+
+.nav-item {
+    border-bottom: 1px solid #e5e5e5;
+
+}
+
+.topo__topics {
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+
+}
+
+.conteudo__topics {
+
+    width: 242px;
+    margin-left: 31px;
+
+
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.conteudo__video {
+    width: 100%;
+    height: 100%;
+}
+
+.texto__lateral {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0px 0px 15px 15px;
+    letter-spacing: 0.02em;
+
+    color: #5C5C5C;
+
+
+}
+
+.citacao__trabalho {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+
+    color: #ED7839;
+}
+
+.video__youtube {
+    width: 783px;
+    height: 439px;
+}
+
+.box__topicos {
+    max-width: 1058px;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.texto__conteudos {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+
+    color: #5C5C5C;
+}
+
+.ver__mais {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+
+    color: #ED7839;
+}
+
+.botao__linguagem {
+    width: 97px;
+    height: 34px;
+    ;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background-color: #FDF1EB;
+}
+
+.botao {
+    background: #ED7839;
+    border-radius: 4px;
+    color: #FFF;
+    border: none;
+}
+
+.botao__download {
+    width: 120px;
+    height: 31px;
+}
+
+.botao__coracao {
+    width: 27px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 2px;
+
+}
+
+.botao_criar {
+    width: 133px;
+    height: 32px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    color: #FFFFFF;
+
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.pessoa__imagem {
+    background: rgb(57, 6, 240);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
+
+.texto__usuario, .texto__linguagem {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.texto__email {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+}
+
+.imagem__botoes {
+    width: 18px;
+    margin-right: 5px;
+}
+
+.botao__estrela {
+    width: 43px;
+    height: 31px;
+}
+
+.botao__dol {}
+
+.more__info:hover {
+    cursor: pointer;
+}
+
+.topicos__titulo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.compartilhar__ideias {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #ED7839;
+}
+
+.box__topicos-criados {
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    padding: 18px 24px;
+    margin: 0px 17px 15px 15px;
+
+}
+
+.nav-item:hover {
+    background-color: #FDF1EB;
+}
+
+.post__reacoes {}
+
+.texto__reacoes {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 19px;
+    color: #757575;
+}
+
+.texto__perguntas {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #4D4D4D;
+}
+
+.autor__nome {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #5C5C5C;
+}
+
+.titulo__perguntas {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+
+
+    color: #ED7839;
+
+}
+
+footer {
+    max-width: 1058px;
+}
+
+@media only screen and (max-width: 1270px) {
+    body {
+        /* background-color: lightblue; */
+    }
+
+    .conteudo__topics {
+        width: 786px;
+        border: 1px solid #ECECEC;
+        box-sizing: border-box;
+        border-radius: 3px;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+
+    .titulo__principal {
+        font-size: 1rem;
+        line-height: 26px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .vertical-nav {
+        display: none;
+    }
+
+    .page-content {
+        margin: 10px;
+        margin-top: 0px;
+        margin-right: 25px;
+    }
+
+    .titulo__texto {
+        display: none;
+    }
+
+    .rodape {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .botoes__laterais {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .citacao__trabalho {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .video__youtube {
+    }
+
+}
