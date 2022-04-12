@@ -7,7 +7,7 @@ body {
     background-color: var(--bg-page);
     font-family: 'Roboto';
 }
-
+/* Menus de navegação */
 .vertical-nav {
     width: 220px;
     height: 100vh;
@@ -37,27 +37,8 @@ body {
 .slaca__logo {
     font-family: 'Roboto';
     color: #FFFFFF;
-    font-size: 30px;
+    font-size: 2rem;
     line-height: 35px;
-}
-
-.titulo__texto {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    color: #725C5C;
-}
-
-.subtitulo__texto {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    color: #725C5C;
-    line-height: 22px;
-    margin-bottom: 0px;
 }
 
 .assinatura__texto {
@@ -70,6 +51,25 @@ body {
 
     color: #725C5C;
 }
+/* Início da primeira sessão */
+.titulo__texto {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 16px;
+    color: #725C5C;
+}
+
+.subtitulo__texto {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #725C5C;
+    line-height: 22px;
+    margin-bottom: 0px;
+}
 
 
 .titulo__principal {
@@ -79,10 +79,11 @@ body {
     font-size: 20px;
     width: 786px;
     line-height: 25px;
+    margin-right: 31px;
     /* or 125% */
-    
+
     letter-spacing: 0.05em;
-    
+
     color: #ED7839;
 }
 
@@ -99,8 +100,8 @@ body {
 }
 
 .conteudo__topics {
+   
     width: 242px;
-    height: 439px;
     margin-left: 31px;
 
 
@@ -115,7 +116,16 @@ body {
 }
 
 .texto__lateral {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
     font-size: 12px;
+    line-height: 120%;
+    /* or 14px */
+
+    letter-spacing: 0.02em;
+
+    color: #5C5C5C;
 }
 
 .citacao__trabalho {
@@ -126,7 +136,7 @@ body {
     line-height: 25px;
     /* identical to box height, or 179% */
 
-    text-align: right;
+    text-align: center;
     letter-spacing: 0.05em;
 
     color: #ED7839;
@@ -138,10 +148,12 @@ body {
 }
 
 .box__topicos {
-    width: 1058px;
+    max-width: 1058px;
     border: 1px solid #ECECEC;
     box-sizing: border-box;
     border-radius: 3px;
+    display: flex;
+    flex-direction: column;
 }
 
 .texto__conteudos {
@@ -153,6 +165,17 @@ body {
     letter-spacing: 0.02em;
 
     color: #5C5C5C;
+}
+
+.ver__mais {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+
+    color: #ED7839;
 }
 
 .botao__linguagem {
@@ -182,6 +205,11 @@ body {
     border-radius: 4px;
     color: #FFF;
     border: none;
+}
+
+.botao__download {
+    width: 120px;
+    height: 31px;
 }
 
 
@@ -214,9 +242,16 @@ body {
 }
 
 .imagem__botoes {
-    width: 20px;
+    width: 18px;
     margin-right: 5px;
 }
+
+.botao__estrela {
+    width: 43px;
+    height: 31px;
+}
+
+.botao__dol {}
 
 .topicos__titulo {
     font-family: 'Roboto';
@@ -245,10 +280,32 @@ body {
     width: 99%;
 }
 
-.box__analise {
-    margin-left: 31px;
-}
-
 .nav-item:hover {
     background-color: #FDF1EB;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
 }
