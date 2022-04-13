@@ -248,6 +248,10 @@ body {
     margin-bottom: 15px;
 }
 
+.esconder__botao {
+    display: none;;
+}
+
 .pessoa__imagem {
     background: rgb(57, 6, 240);
     background-repeat: no-repeat;
