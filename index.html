@@ -161,7 +161,32 @@
             condimentum lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, ac
             gravida eros vestibulum Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl
             metus. Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum. Etiam aliquam dictum
-            nisl, vel aliquet enim accumsan sit ametl accumsant...
+            nisl, vel aliquet enim accumsan sit ametl accumsant <span class="ver__mais">...ver mais</span><span class="continuar__texto d-none"> sit
+                amet. Donec finibus nisi tellus, ut viverra lorem vestibulum ut. Phasellus condimentum orci id leo
+                condimentum lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque,
+                ac gravida eros vestibulum.
+
+                Fusce vitae luctus dui. Donec id euismod mauris, in volutpat urna. Proin dapibus consequat feugiat.
+                Proin dictum justo arcu, quis vestibulum augue lacinia quis. Sed dignissim dui nulla, ut faucibus mauris
+                sodales id. Aliquam erat volutpat. Maecenas dolor enim, tincidunt id elit non, suscipit interdum turpis.
+                Etiam finibus urna libero, eget interdum eros volutpat ullamcorper. Pellentesque et pretium lorem.
+                Aenean interdum quis diam ac porttitor. Cras nec ipsum pulvinar, pharetra libero non, ornare enim. Etiam
+                in laoreet odio.
+
+                Nam eget tristique elit, at fermentum tellus. Mauris scelerisque ligula id eleifend feugiat. Donec
+                eleifend vehicula sem nec dapibus. Integer scelerisque neque dui, in lacinia erat molestie eu. Phasellus
+                maximus dui eget lacus porta tempor. Ut ex nibh, dignissim quis purus semper, efficitur facilisis
+                turpis. Praesent blandit elementum ultricies. Aliquam sit amet enim sit amet nulla pulvinar lobortis
+                consectetur non odio. Phasellus at lacus hendrerit, vulputate nisi sit amet, viverra mauris. Etiam eu
+                scelerisque orci. Quisque sagittis, mi vitae pharetra iaculis, orci elit eleifend massa, eu posuere
+                mauris odio id odio. Morbi eu libero luctus, consectetur lorem vel, interdum sapien. Aenean in porta
+                arcu. Maecenas eu maximus massa.
+
+                Praesent velit dolor, dignissim sed quam ac, efficitur porta justo. Pellentesque porta pharetra felis ut
+                hendrerit. Nulla facilisi. Aliquam erat volutpat. Nunc sit amet faucibus quam. Maecenas dapibus luctus
+                dolor at viverra. Duis nec fringilla libero. Duis risus nibh, viverra ac orci nec, iaculis dictum sem.
+                Aliquam at malesuada arcu. Aliquam erat volutpat. Donec varius ipsum purus, ut vehicula purus placerat
+                vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
 
     </section>
     <section class="page-content box__topicos mt-3">
@@ -169,18 +194,42 @@
             <h3 class="topicos__titulo">Discussões</h3>
         </div>
         <div class="d-flex flex-column align-items-center">
-            <p class="ps-3  p-2 text-center compartilhar__ideias">Compartilhe suas ideias ou dúvidas com os autores!
-            </p>
-            <div class="d-flex justify-content-between mb-2">
-                <img src="./img/icone1.svg" class="w-25" alt="">
-                <img src="./img/icone2.svg" class="w-25" alt="">
-                <img src="./img/icone2.svg" class="w-25" alt="">
+            <div class="discussoes d-flex flex-column">
+                <p class="ps-3  p-2 text-center compartilhar__ideias">Compartilhe suas ideias ou dúvidas com os autores!
+                </p>
+                <div class="align-self-center w-25 mb-2">
+                    <img src="./img/icone1.svg" alt="">
+                    <img src="./img/icone2.svg" alt="">
+                    <img src="./img/icone2.svg" alt="">
+                </div>
+                <p class="text-center texto__conteudos">Sabia que o maior estímulo no desenvolvimento científico e
+                    cultural
+                    é a curiosidade? Deixe seus
+                    questionamentos ou sugestões para o autor!</p>
+                <div class="d-flex justify-content-center mb-2">
+                    <button class="botao botao_criar"><img src="./img/icon-criar.svg"> criar tópico</button>
+                </div>
             </div>
-            <p class="text-center texto__conteudos">Sabia que o maior estímulo no desenvolvimento científico e cultural
-                é a curiosidade? Deixe seus
-                questionamentos ou sugestões para o autor!</p>
-            <div class="d-flex justify-content-center mb-2">
-                <button class="botao botao_criar"><img src="./img/icon-criar.svg"> criar tópico</button>
+            <div class="discussoes__campos d-flex flex-column d-none">
+                <p class="ps-3  p-2 text-center texto__conteudos">Tem uma dúvida ou sugestão? Compartilhe seu feedback
+                    com os autores!
+                </p>
+                <div class="mb-2">
+                    <form>
+                        <div class="form-group">
+                            <label for="formAssunto">Assunto</label>
+                            <input type="email" class="form-control mb-4" id="formAssunto" placeholder="">
+
+                            <div class="form-group">
+                                <label for="formConteudo">Conteúdo</label>
+                                <textarea class="form-control" id="formConteudo" rows="3"></textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="d-flex justify-content-center mb-2">
+                    <button class="botao botao_criar"><img src="./img/icon-criar.svg"> criar tópico</button>
+                </div>
             </div>
             <div class="box__topicos-criados">
                 <p><span class="titulo__perguntas">Assunto da pergunta aparece aqui</span>

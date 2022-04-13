@@ -347,6 +347,10 @@ body {
 
 }
 
+.ver__mais:hover {
+    cursor: pointer;
+}
+
 footer {
     max-width: 1058px;
 }
