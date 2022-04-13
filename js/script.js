@@ -30,6 +30,7 @@ botaoEnviar.addEventListener('click', e => {
     e.preventDefault();
     campoDiscussoes.classList.add('d-none')
     campoEnviado.classList.remove('d-none')
+    topicoAguardando.classList.remove('d-none')
 })
 
 botaoRecriar.addEventListener('click', e => {
