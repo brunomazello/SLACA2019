@@ -377,7 +377,8 @@ footer {
     }
 
     .page-content {
-        margin-right: 0px;
+        margin: 10px;
+        margin-top: 0px;
     }
 
     .titulo__texto {
