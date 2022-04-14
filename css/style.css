@@ -602,10 +602,6 @@ footer {
         margin-left: 0;
     }
 
-    .logo__slaca {
-        display: none;
-    }
-
     .botao__linguagem {
         margin-bottom: 20px;
     }
@@ -620,4 +616,3 @@ footer {
 
 }
 
-}
