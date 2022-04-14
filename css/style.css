@@ -586,7 +586,38 @@ footer {
     }
 
     .menu {
+        margin-left: -100%;
+        transition: all .4s;
         background-color: white;
     }
+
+    label[for='bt_menu'] {
+        display: block;
+        margin-left: 87%;
+        margin-top: 13px;
+        position: absolute;
+    }
+
+    #bt_menu:checked~.menu {
+        margin-left: 0;
+    }
+
+    .logo__slaca {
+        display: none;
+    }
+
+    .botao__linguagem {
+        margin-bottom: 20px;
+    }
+
+    .menu__usuario {
+        margin-right: 55px;
+    }
+
+    .campo__linguagens {
+        margin-top: 20px;
+    }
+
+}
 
 }
