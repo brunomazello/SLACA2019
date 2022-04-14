@@ -418,7 +418,7 @@ body {
     margin-top: 100px;
     margin-left: 24%;
     margin-right: 14%;
-    
+
 }
 
 .titulo__perguntas {
@@ -458,11 +458,72 @@ body {
     cursor: pointer;
 }
 
+#bt_menu {
+    display: none;
+}
+
+label[for='bt_menu'] {
+    padding: 5px;
+    background-color: var(--botao-laranja);
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Arial';
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+    width: 43px;
+    height: 43px;
+}
+
+label[for='bt_menu']:hover {
+    background-color: #f4f4f4;
+    color: #aaa;
+}
+
 footer {
     max-width: 1058px;
 }
 
+@media only screen and (max-width: 426px) {
+
+    .menu {
+        margin-left: -100%;
+        transition: all .4s;
+        background-color: white;
+    }
+
+    label[for='bt_menu'] {
+        display: block;
+        margin-left: 87%;
+        margin-top: 13px;
+        position: absolute;
+    }
+
+    #bt_menu:checked~.menu {
+        margin-left: 0;
+    }
+
+    .logo__slaca {
+        display: none;
+    }
+
+    .botao__linguagem {
+        margin-bottom: 20px;
+    }
+
+    .menu__usuario {
+        margin-right: 55px;
+    }
+
+    .campo__linguagens {
+        margin-top: 20px;
+    }
+
+}
 @media only screen and (max-width: 1270px) {
+
+
 
     .botoes__laterais {
         align-items: center;
@@ -524,8 +585,8 @@ footer {
         display: none;
     }
 
-    .vertical-nav {
-        display: none;
+    .menu {
+        background-color: white;
     }
 
 }
