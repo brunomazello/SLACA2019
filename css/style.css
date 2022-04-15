@@ -610,7 +610,7 @@ footer {
 
     label[for='bt_menu'] {
         display: block;
-        margin-left: 87%;
+        margin-left: 88%;
         margin-top: 13px;
         position: absolute;
     }
@@ -631,5 +631,8 @@ footer {
         margin-top: 20px;
     }
 
+    .slaca__texto {
+        padding: 10px;
+    }
 }
 
